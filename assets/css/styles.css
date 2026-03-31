@@ -373,9 +373,18 @@ background: radial-gradient(ellipse at center, rgba(30, 20, 15, 0.55) 0%, rgba(3
  }
 
  /* -- LITTERS -- */ 
+
+ .litters-grid {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 2px;
+     background: var(--silver);
+     overflow: hidden;
+ }
+
  .litter-card {
     border: none;
-    border-radius: var(--border-radius);
+    border-radius: 3px 3px 0 0;
     overflow: hidden;
     background: var(--parchment);
     transition: background 0.2s; 
