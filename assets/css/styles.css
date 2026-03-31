@@ -62,8 +62,8 @@ body-text {
 /* -- NAV -- */
 .navbar {
     background: rgba(244, 243, 238, 0.92) !important;
+    -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--silver);
     height: 64px;
     padding: 0 2rem;
